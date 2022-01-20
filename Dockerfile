@@ -23,6 +23,7 @@ RUN conda install --quiet --yes \
     fix-permissions /home/$NB_USER
 
 # cairo requires libcairo2-dev and libxt
+RUN R -e "update.packages(repos='http://cran.rstudio.com/')"
 RUN R -e "install.packages(c('Cairo'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
 RUN R -e "install.packages(c('Rmisc'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
 RUN R -e "install.packages(c('testthat'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
