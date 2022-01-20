@@ -1,4 +1,5 @@
-ARG BASE_CONTAINER=jupyter/datascience-notebook
+ARG BASE_CONTAINER=jupyter/r-notebook-plus
+
 FROM $BASE_CONTAINER
 
 LABEL maintainer="Jun Nishii <nishii@yamaguchi-u.ac.jp>"

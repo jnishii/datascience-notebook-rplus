@@ -5,7 +5,7 @@ DKUSER=jovyan
 DKHOME=/home/${DKUSER}
 PWD=`pwd`
 WD="${PWD}"
-IMAGE=jnishii/datascience-notebook-rplus
+IMAGE=jnishii/r-notebook-plus
 
 DKOPT="--rm \
 	-e TZ=Asia/Tokyo \

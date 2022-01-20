@@ -1,6 +1,6 @@
-# datascience-notebook-rplus
+# r-notebook-plus
 
-This is a variant of docker image of jupyter/datascience-notebook with some R libralies.
+This is a variant of docker image of jupyter/r-notebook with some R libralies.
 
 ## additional R libralies
 

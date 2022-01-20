@@ -1,4 +1,4 @@
-IMAGE=jnishii/datascience-notebook-rplus
+IMAGE=jnishii/r-notebook-plus
 VERSION=$(shell cat VERSION)
 
 release: 

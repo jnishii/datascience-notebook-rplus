@@ -1,3 +1,4 @@
 1.0 (2022/1/20)
-
 - separate R image from datascience-notebook-plus
+- select base container as jupyter/r-notebook
+
