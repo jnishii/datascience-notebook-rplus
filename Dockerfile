@@ -1,4 +1,4 @@
-ARG BASE_CONTAINER=jupyter/r-notebook-plus
+ARG BASE_CONTAINER=jupyter/r-notebook
 
 FROM $BASE_CONTAINER
 
